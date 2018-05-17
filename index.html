@@ -1,0 +1,295 @@
+<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>Batalla de Puebla</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app6.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src="js/acciones.js"><>/script>-->
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/mayo3.jpg','imagenes/mayo5.jpg','imagenes/mayo2.jpg','imagenes/mayo4.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="b">
+   <h1>Batalla de Puebla</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+ <div data-role="collapsible" data-theme="false">
+  <h1>BATALLA DE PUEBLA</h1>
+ <div>
+  <p>BATALLA DE PUEBLA:</p>
+  <br>
+ </div>
+ <div>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/mayo3.jpg',1)"><img src="imagenes/mayo2.jpg" width="60%" height="60%" id="Image10"></a> </div>
+ </div>
+ </div>
+ <div data-role="main" class="ui-content">
+ <div data-role="collapsible" data-theme="false">
+  <h1>batalla de Puebla</h1>
+ <div>
+  <p>batalla de Puebla:</p>
+  <br>
+ </div>
+ <div>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','imagenes/mayo5.jpg',1)"><img src="imagenes/mayo4.jpg" width="60%" height="60%" id="Image29"></a> </div>
+ </div>
+ </div>
+ <div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Batalla de 4 de mayo</h2>
+   <p>¿Que paso?</p>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Batalla 5 de mayo</h2>
+   <p>¿Que sucedio?</p>
+   </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Inicio del confligto</h2>
+   <p>¿Que suceio?</p>
+   </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Monumentos de la batalla y/o museos que existen sobre el tema</h2>
+   <p>¿Cuales son?</p>
+   </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Héroes de la batalla</h2>
+   <p>heroes</p>
+   </a>
+  </li>
+ </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+ <img src="imagenes/persona_rosa.png" width="46" height="46">
+ </div>
+ <div>
+  <h4>Aplicacion seis</h4>
+  <h4> Wendolyn Pedraza Catarino </h4>
+ </div>
+ </div>
+ </div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>Batalla de 4 de mayo</h1>
+ </div>
+  <div data-role="content" aling"center">
+  <div>
+   <h2>Desde la etapa de colonización hispana, fue un lugar privilegiado y codiciado.  Sus condiciones de fertilidad, abundancia de agua y mano de obra, propiciaron una gran riqueza agrícola basada en el cultivo del trigo, por lo que fue considerada como “el primer granero de la Nueva España”.  Su importancia económica ha sido plasmada en diversos testimonios de aquella época recogidos en el libro “Antigua Villa de Carrión”, de la autoría de Marco Díaz.
+Su participación en la causa de la Independencia, -donde destacan José Luis Rodríguez de Alconedo y Francisco Pablo Vázquez-  le otorgaron, de parte del General Nicolás Bravo en 1843 la denominación de “Noble y Leal Ciudad de Atlixco”.
+El esfuerzo de construcción de nuestro país, pasa por una serie de invasiones. Por ello habrá que recordar también, la defensa que hizo Atlixco en contra de los españoles que intentaban reconquistar a México en 1825; y la intervención que tuvo en 1914 durante la invasión estadounidense en el gobierno de Victoriano Huerta.</h2>
+  </div>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','imagenes/mayo4.jpg',1)"><img src="imagenes/mayo1.png" width="70%" height="70%" id="Image32"></a>
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+    <a href="https://www.sabersinfin.com/articulos/historia/6710-4-de-mayo-de-1862" data-role="button">
+       <h2> aprende mas </h2>
+     </a>
+    </li>
+   </ul>
+</div>
+  </div>
+  </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+ <div>
+ <img src="imagenes/persona_rosa.png" width="46" height="46">
+</div>
+<h4>Aplicacion seis,WPC</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Batalla 5 de mayo</h1>
+  </div>
+ <div data-role="content" aling="center">
+  <div>
+   <h2>El 5 de mayo de 1862 tuvo lugar la Batalla de Puebla, y el lugar de los hechos fue en los alrededores de la ciudad de Puebla. Enmarcada en la segunda intervención francesa, la Batalla de Puebla enfrentó al ejército invasor con el comandado por el general Ignacio Zaragoza. Una lucha entre una fuerza imperial compuesta de seis mil 48 efectivos, bien equipada y entrenada, contra un ejército de cuatro mil 700 combatientes, en su mayoría veteranos, más la ayuda de algunos civiles armados.
+   La Guerra de Reforma provocó una seria escasez de recursos, misma que motivó al mandatario Benito Juárez a suspender por dos años los pagos de la deuda externa, y así recuperar la economía del país. En 1857, ocurrió la Guerra de Reforma : un conflicto armado donde los liberales afrontaron los conservadores para impedir que la nueva constitución restituya a los militares y a la Iglesia los privilegios que habían perdido con las Leyes de Reforma. Benito Juárez, gobernador de Oaxaca al momento del conflicto, representaba a los liberales y  Ignacio Comonfort, presidente de la República, representaba a los conservadores.</h2></div>
+   <div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+    <a href="http://www.dias-festivos-mexico.com.mx/dias-feriados/batalla-puebla/" data-role="button">
+       <h2> aprende mas </h2>
+     </a>
+    </li>
+   </ul>
+</div>
+    </div>
+    <img src="imagenes/mayo5.jpg" width="60%" height="60%">
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <img src="imagenes/persona_rosa.png" width="56" height="46">
+  </div>
+  <h4>Aplicacion seis, WPC</h4>
+ </div>
+</div>
+ 
+ 
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-add-back-btn-theme="b"> 
+  <h2>Inicio del confligto</h2>
+  </div>
+  <div data-role="content" aling="center">
+  <div>
+  <h2>La Batalla de Puebla fue consecuencia de la Segunda intervención francesa en México (conocida como la batalla de San Lorenzo). Para saber por qué se libró la batalla, es esencial entender primeramente por qué Francia intervino en el país mexicano. Pues, en síntesis, todo se debía a problemas con pago de deudas de parte de México.
+Su deuda se remontaba a 80 millones de pesos: 2 millones para Francia, 9 millones para España y 69 millones para Inglaterra. Pero Benito Juárez, el presidente de México para ese entonces, decidió suspender el pago de las deudas externas.</h2></div>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31','','imagenes/mayo2.jpg',1)"><img src="imagenes/mayo3.jpg" width="70%" height="70%" id="Image31"></a> </div>
+  <div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+    <a href="http://www.historia-mexico.info/2012/08/batalla-de-puebla-la-batalla-del-5-de.html" data-role="button">
+       <h2> aprende mas </h2>
+     </a>
+    </li>
+   </ul>
+</div>
+    </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="imagenes/persona_rosa.png" width="46" height="46">
+   </div>
+  <h4>Aplicacion seis, WPC</h4>
+  </div>
+   </div>
+   
+   
+   <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-add-back-btn-theme="b">
+  <h1>Monumentos de la batalla y/o museos que existen sobre el tema</h1>
+  </div>
+  <div data-role="content" align="center">
+  <div>
+  <h2>monumentos y museos</h2>
+  <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/museo2.jpg" alt="museo2" title="museo2" id="wows1_0"/></li>
+		<li><img src="data1/images/museo3.jpg" alt="museo3" title="museo3" id="wows1_1"/></li>
+		<li><img src="data1/images/museo1.jpg" alt="museo1" title="museo1" id="wows1_2"/></li>
+		<li><img src="data1/images/museo2_0.png" alt="museo2" title="museo2" id="wows1_3"/></li>
+		<li><img src="data1/images/museo4.jpg" alt="museo4" title="museo4" id="wows1_4"/></li>
+		<li><img src="data1/images/museo5.jpg" alt="museo5" title="museo5" id="wows1_5"/></li>
+		<li><img src="data1/images/museo6.jpg" alt="museo6" title="museo6" id="wows1_6"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/museo7.jpg" alt="wowslider" title="museo7" id="wows1_7"/></a></li>
+		<li><img src="data1/images/museo8.jpg" alt="museo8" title="museo8" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="museo2"><span><img src="data1/tooltips/museo2.jpg" alt="museo2"/>1</span></a>
+		<a href="#" title="museo3"><span><img src="data1/tooltips/museo3.jpg" alt="museo3"/>2</span></a>
+		<a href="#" title="museo1"><span><img src="data1/tooltips/museo1.jpg" alt="museo1"/>3</span></a>
+		<a href="#" title="museo2"><span><img src="data1/tooltips/museo2_0.png" alt="museo2"/>4</span></a>
+		<a href="#" title="museo4"><span><img src="data1/tooltips/museo4.jpg" alt="museo4"/>5</span></a>
+		<a href="#" title="museo5"><span><img src="data1/tooltips/museo5.jpg" alt="museo5"/>6</span></a>
+		<a href="#" title="museo6"><span><img src="data1/tooltips/museo6.jpg" alt="museo6"/>7</span></a>
+		<a href="#" title="museo7"><span><img src="data1/tooltips/museo7.jpg" alt="museo7"/>8</span></a>
+		<a href="#" title="museo8"><span><img src="data1/tooltips/museo8.jpg" alt="museo8"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">http://wowslider.net/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<p>Uno de los mas importantes es:</p>
+<p>Monumento de Ignacio Zaragoza</p>
+<p>Se trata del lugar de descansa de los restos de uno de los generales más importantes que ha tenido México. Nos referimos al Monumento a Ignacio Zaragoza, ubicado cerca de los Fuertes de Loreto y Guadalupe, donde defendió al país. Durante la Segunda Intervención Francesa en Puebla, Ignacio Zaragoza visitó a las tropas en la borrasca de las cumbres de Acultzingo. En ese momento ya había reportes de tifo o tifus –no confundir con tifoidea– entre algunos de los soldados. Desgraciadamente, fue aquí que el general se contagió de lo que le quitaría la vida lejos del campo de batalla.</p>
+  </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+  <img src="imagenes/persona_rosa.png" width="46" height="46">
+  </div>
+  <h4>Aplicacion seis, WPC</h4>
+  </div>
+  </div>
+  
+  
+  <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-add-back-btn-theme="b">
+  <h1>Héroes de la batalla</h1>
+  </div>
+  <div data-role="content" align="center">
+  <div>
+  <h2>Heroes de la batalla:</h2></div>
+<p>Ignacio Zaragoza</p>
+<p>Famoso militar mexicano quen cuando las fuerzas francesas de Napoleón III invadieron México para imponer como emperador a Maximiliano de Habsburgo, con el rango de general y al mando del Ejército de Oriente, las enfrentó en Acultzingo en la llamada Batalla de Las Cumbres de Acultzingo, el 28 de abril de 1862, siendo obligado a retroceder.</p>
+ <img src="imagenes/img1.jpg" width="60%" height="60%">
+ <p>Porfirio Díaz</p>
+ <p>Al producirse la Intervención Norteamericana en México, en el seminario de Oaxaca surgió la inquietud de luchar contra los invasores, idea que fue respaldada y alentada por los sacerdotes y maestros. En octubre de ese año, varios alumnos se dirigieron a ver al gobernador del Estado y solicitarle su ingreso al ejército nacional.</p>
+ <img src="imagenes/img2.jpg" width="60%" height="60%">
+  <p>Miguel Negrete</p>
+  <p>Durante la Segunda Intervención Francesa en México, Negrete hizo a un lado su ideología conservadora y participó en la defensa del territorio mexicano, ante el avance de las tropas francesas hacia el centro de México.</p>
+  <img src="imagenes/img3.jpg" width="60%" height="60%">
+  </div>
+  <div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+    <a href="http://luiguio1804.wixsite.com/batalladepuebla/personajes" data-role="button">
+       <h2> aprende mas </h2>
+     </a>
+    </li>
+   </ul>
+</div>
+    </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+  <img src="imagenes/persona_rosa.png" width="46" height="46">
+  </div>
+  <h4>Aplicacion seis, WPC</h4>
+  </div>
+  </div>
+</body>
+</html>
